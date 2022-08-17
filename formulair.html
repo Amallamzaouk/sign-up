@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="java scripte.js">
+    <script src="formulair.js"></script>
+    <title>formulair</title>
+
+</head>
+<body>
+<h1 id="msg">formulair</h1>
+<form action="">
+<fieldset>
+    <legend>Inscription</legend>
+            <table>
+                <tr>
+                    <td><label for="a">Nom</label></td>
+                    <td><input type="text" name="" id="a" placeholder="saisire votre nom" ><span style="color: red;" id="ernom">⁎</span></td>
+                    <td><p id="er"></p></td>
+                </tr>
+
+                <tr>
+                    <td><label for="b">Prenom</label></span></td>
+                    <td><input type="text" name="" id="b" placeholder="saisir votr prenom" ><span style="color:red ;"id="error">⁎</td>
+                </tr>
+                <tr>
+                    <td><label>dat de naissence</label></td>
+                    <td><input type="date" name="" id="dn" ><span style="color:red " id="errorage">⁎</span></td>
+                </tr>
+
+                <tr>
+                    <td><label >Code posal</label></td>
+                    <td><input type="text" name="" id="cp" placeholder="saisir votre code postal" ><span id="pc" style="color:red ;">⁎</span></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Pays</label><span style="color:red ;">⁎</span></td>
+                    <td>
+                      <select id="pay">
+                        <option value="Maroc" selected>Maroc</option>
+                        <option value="France">France</option>
+                        <option value="USA">USA</option>
+                        <option value="China">China</option>
+                      </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Gener</label><span style="color:red ;">⁎</span></td>
+                    <td><input type="radio" name="g" id="m" value="m" ><label for="m">Masculin</label>
+                        <input type="radio" name="g" id="f" value="f" ><label for="f">Féminin</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Prefernces de contact</label><span style="color:red ;" >⁎</span></td>
+                    <td><input type="checkbox" name="" id="">Fax<input type="checkbox" name="" id="">Email<input type="checkbox" name="" id="">Telephone</td>
+                </tr>
+
+                <tr>
+                    <td><label for="s">Email</label><span style="color:red ;">⁎</span></td>
+                    <td><input type="email" name="" id="s"placeholder="saisir votre Email" > </td>
+                </tr>
+
+                <tr>
+                    <td><label for="m">Password</label><span style="color:red ;">⁎</span></td>
+                    <td><input type="password" name="" id="n"placeholder="saisir votre password" > </td>
+                </tr>
+
+                <tr>
+                    <td><label for="n">Verification password</label><span style="color:red ;">⁎</span></td>
+                    <td><input type="password" name="" id="n"placeholder="verification password" ></td>
+                </tr>       
+                
+                
+                <tr>
+                    <td></td>
+                    <td><button type="button" onclick="verifier()">Envoyer</button><button type="reset">Efacer</button></td>
+                </tr> 
+                  
+        </table>
+
+</fieldset>
+</form>
+
+<script src="valide.js"></script>
+</body>
+</html>

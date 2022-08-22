@@ -33,8 +33,8 @@
     errorage.innerText="invalid";
     errorage.style.color = "red";
    } else{
-       dn .innerText="valid";
-       dn .style.color = "green";
+    errorage.innerText="valid";
+    errorage.style.color = "green";
 }
  //code postal
     var regcp = new RegExp('^[0-9]{5}$','i');
@@ -48,15 +48,9 @@
         pc.innerText="valid";
         pc.style.color = "green";
     }
-
+   //numero de telephone
+    //email
+     //password
+     //verification password
 
 }
-// 
-
-
-
-
-
-    
-
-
